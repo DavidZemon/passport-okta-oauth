@@ -1,5 +1,5 @@
 {
-  "name": "passport-okta-oauth",
+  "name": "@nvite/passport-okta-oauth",
   "version": "0.0.1",
   "description": "Passport strategy for authenticating with Okta using OAuth 2.0.",
   "main": "lib/passport-okta-oauth/index.js",
@@ -7,6 +7,9 @@
     "pkginfo": "0.2.x",
     "passport-oauth": "1.0.0",
     "uid2": "0.0.3"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
     "vows": "0.6.x"
