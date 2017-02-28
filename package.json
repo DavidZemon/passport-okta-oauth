@@ -1,6 +1,6 @@
 {
   "name": "@nvite/passport-okta-oauth",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Passport strategy for authenticating with Okta using OAuth 2.0.",
   "main": "lib/passport-okta-oauth/index.js",
   "dependencies": {
