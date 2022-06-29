@@ -6,3 +6,12 @@ test/
 
 .jshintrc
 .travis.yml
+
+.yarn/cache/
+.pnp.cjs
+.yarn/install-state.gz
+
+.idea/
+*.iml
+.settings/
+.project

@@ -1,25 +1,19 @@
 {
-  "name": "@nvite/passport-okta-oauth",
-  "version": "0.0.2",
+  "name": "@davidzemon/passport-okta-oauth",
+  "version": "0.0.3",
   "description": "Passport strategy for authenticating with Okta using OAuth 2.0.",
   "main": "lib/passport-okta-oauth/index.js",
   "dependencies": {
-    "pkginfo": "0.2.x",
-    "passport-oauth": "1.0.0",
-    "uid2": "0.0.3"
+    "passport-oauth": "^1.0.0",
+    "pkginfo": "^0.4.1",
+    "uid2": "^1.0.0"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "devDependencies": {
-    "vows": "0.6.x"
-  },
-  "scripts": {
-    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/techstars/passport-okta-oauth"
+    "url": "https://github.com/DavidZemon/passport-okta-oauth"
   },
   "keywords": [
     "passport",
@@ -30,12 +24,13 @@
     "identity"
   ],
   "author": {
-    "name": "Steven Chau",
-    "email": "steven.chau@techstars.com"
+    "name": "David Zemon",
+    "email": "david@zemon.name"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/techstars/passport-okta-oauth/issues"
+    "url": "https://github.com/DavidZemon/passport-okta-oauth/issues"
   },
-  "homepage": "https://github.com/techstars/passport-okta-oauth"
+  "homepage": "https://github.com/DavidZemon/passport-okta-oauth",
+  "packageManager": "yarn@3.2.1"
 }
