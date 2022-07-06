@@ -9,12 +9,123 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@davidzemon/passport-okta-oauth@workspace:."
   dependencies:
-    passport-oauth: ^1.0.0
+    "@types/passport-oauth2": ^1.4.11
+    passport-oauth2: ^1.6.1
     pkginfo: ^0.4.1
     prettier: ^2.7.1
+    typescript: ^4.7.4
     uid2: ^1.0.0
   languageName: unknown
   linkType: soft
+
+"@types/body-parser@npm:*":
+  version: 1.19.2
+  resolution: "@types/body-parser@npm:1.19.2"
+  dependencies:
+    "@types/connect": "*"
+    "@types/node": "*"
+  checksum: e17840c7d747a549f00aebe72c89313d09fbc4b632b949b2470c5cb3b1cb73863901ae84d9335b567a79ec5efcfb8a28ff8e3f36bc8748a9686756b6d5681f40
+  languageName: node
+  linkType: hard
+
+"@types/connect@npm:*":
+  version: 3.4.35
+  resolution: "@types/connect@npm:3.4.35"
+  dependencies:
+    "@types/node": "*"
+  checksum: fe81351470f2d3165e8b12ce33542eef89ea893e36dd62e8f7d72566dfb7e448376ae962f9f3ea888547ce8b55a40020ca0e01d637fab5d99567673084542641
+  languageName: node
+  linkType: hard
+
+"@types/express-serve-static-core@npm:^4.17.18":
+  version: 4.17.29
+  resolution: "@types/express-serve-static-core@npm:4.17.29"
+  dependencies:
+    "@types/node": "*"
+    "@types/qs": "*"
+    "@types/range-parser": "*"
+  checksum: ec4194dc59276ec6dd906887fc377be0cadf4aaa4d535d9052ab9624937ef2b984a8d9da2c11c96979e21f3d9f78f1da93e767dbcec637f7f13d2e3003151145
+  languageName: node
+  linkType: hard
+
+"@types/express@npm:*":
+  version: 4.17.13
+  resolution: "@types/express@npm:4.17.13"
+  dependencies:
+    "@types/body-parser": "*"
+    "@types/express-serve-static-core": ^4.17.18
+    "@types/qs": "*"
+    "@types/serve-static": "*"
+  checksum: 12a2a0e6c4b993fc0854bec665906788aea0d8ee4392389d7a98a5de1eefdd33c9e1e40a91f3afd274011119c506f7b4126acb97fae62ae20b654974d44cba12
+  languageName: node
+  linkType: hard
+
+"@types/mime@npm:^1":
+  version: 1.3.2
+  resolution: "@types/mime@npm:1.3.2"
+  checksum: 0493368244cced1a69cb791b485a260a422e6fcc857782e1178d1e6f219f1b161793e9f87f5fae1b219af0f50bee24fcbe733a18b4be8fdd07a38a8fb91146fd
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:*":
+  version: 18.0.3
+  resolution: "@types/node@npm:18.0.3"
+  checksum: 5dec59fbbc1186c808b53df1ca717dad034dbd6a901c75f5b052c845618b531b05f27217122c6254db99529a68618e4cfc534ae3dbf4e88754e9e572df80defa
+  languageName: node
+  linkType: hard
+
+"@types/oauth@npm:*":
+  version: 0.9.1
+  resolution: "@types/oauth@npm:0.9.1"
+  dependencies:
+    "@types/node": "*"
+  checksum: 5c079611b455eff58fba6358e028b191a1e65475600f8ed8d98c1696fedcfb0290aa6c6a19cf50f21a9e2d816ecb43a19f910900d91f8ba3727e33c48f97d7f3
+  languageName: node
+  linkType: hard
+
+"@types/passport-oauth2@npm:^1.4.11":
+  version: 1.4.11
+  resolution: "@types/passport-oauth2@npm:1.4.11"
+  dependencies:
+    "@types/express": "*"
+    "@types/oauth": "*"
+    "@types/passport": "*"
+  checksum: 09d047a6c09a05c036f7db0cf8f8c09bf5878fdd15949bb1baa09a35f439929d471048fa6595f09ea4a4ea25396ce3918b362136579cf4a2b2ee29a92c0dd1ce
+  languageName: node
+  linkType: hard
+
+"@types/passport@npm:*":
+  version: 1.0.9
+  resolution: "@types/passport@npm:1.0.9"
+  dependencies:
+    "@types/express": "*"
+  checksum: 7c8d288a517c36439ea4670e5812d84357ab567b969554e9adbe9b64aff72409ffdf46526d7c4322569662f6e55382caee77b735dc75023802005305683465cd
+  languageName: node
+  linkType: hard
+
+"@types/qs@npm:*":
+  version: 6.9.7
+  resolution: "@types/qs@npm:6.9.7"
+  checksum: 7fd6f9c25053e9b5bb6bc9f9f76c1d89e6c04f7707a7ba0e44cc01f17ef5284adb82f230f542c2d5557d69407c9a40f0f3515e8319afd14e1e16b5543ac6cdba
+  languageName: node
+  linkType: hard
+
+"@types/range-parser@npm:*":
+  version: 1.2.4
+  resolution: "@types/range-parser@npm:1.2.4"
+  checksum: b7c0dfd5080a989d6c8bb0b6750fc0933d9acabeb476da6fe71d8bdf1ab65e37c136169d84148034802f48378ab94e3c37bb4ef7656b2bec2cb9c0f8d4146a95
+  languageName: node
+  linkType: hard
+
+"@types/serve-static@npm:*":
+  version: 1.13.10
+  resolution: "@types/serve-static@npm:1.13.10"
+  dependencies:
+    "@types/mime": ^1
+    "@types/node": "*"
+  checksum: eaca858739483e3ded254cad7d7a679dc2c8b3f52c8bb0cd845b3b7eb1984bde0371fdcb0a5c83aa12e6daf61b6beb762545021f520f08a1fe882a3fa4ea5554
+  languageName: node
+  linkType: hard
 
 "base64url@npm:3.x.x":
   version: 3.0.1
@@ -30,18 +141,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"passport-oauth1@npm:1.x.x":
-  version: 1.2.0
-  resolution: "passport-oauth1@npm:1.2.0"
-  dependencies:
-    oauth: 0.9.x
-    passport-strategy: 1.x.x
-    utils-merge: 1.x.x
-  checksum: b38444da71bf3468a53599d908b45e4043c7dd04cce0ded3398a91f161ce076c5973f42ddad47e5012f8b1cccea71b60890b35560491921d0858c36b364ac471
-  languageName: node
-  linkType: hard
-
-"passport-oauth2@npm:1.x.x":
+"passport-oauth2@npm:^1.6.1":
   version: 1.6.1
   resolution: "passport-oauth2@npm:1.6.1"
   dependencies:
@@ -51,16 +151,6 @@ __metadata:
     uid2: 0.0.x
     utils-merge: 1.x.x
   checksum: 2a5b01a884ebade01770543d3b84fbdbc45c75ca13b320b88ae59e33388bb485a27c323c2d3904058dca57065bf0e2a78c645cbb62600ced2dcdd43094259f0e
-  languageName: node
-  linkType: hard
-
-"passport-oauth@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "passport-oauth@npm:1.0.0"
-  dependencies:
-    passport-oauth1: 1.x.x
-    passport-oauth2: 1.x.x
-  checksum: e6d908ac6c305db1f4040538360c29ca1427b27772c74abaa75db24647db7ee1ccd9c6ccc1bb74649bca090f31f3225540539219b4a97b31c0c1434f4a9ee7b3
   languageName: node
   linkType: hard
 
@@ -84,6 +174,26 @@ __metadata:
   bin:
     prettier: bin-prettier.js
   checksum: 55a4409182260866ab31284d929b3cb961e5fdb91fe0d2e099dac92eaecec890f36e524b4c19e6ceae839c99c6d7195817579cdffc8e2c80da0cb794463a748b
+  languageName: node
+  linkType: hard
+
+"typescript@npm:^4.7.4":
+  version: 4.7.4
+  resolution: "typescript@npm:4.7.4"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 5750181b1cd7e6482c4195825547e70f944114fb47e58e4aa7553e62f11b3f3173766aef9c281783edfd881f7b8299cf35e3ca8caebe73d8464528c907a164df
+  languageName: node
+  linkType: hard
+
+"typescript@patch:typescript@^4.7.4#~builtin<compat/typescript>":
+  version: 4.7.4
+  resolution: "typescript@patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=7ad353"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 9096d8f6c16cb80ef3bf96fcbbd055bf1c4a43bd14f3b7be45a9fbe7ada46ec977f604d5feed3263b4f2aa7d4c7477ce5f9cd87de0d6feedec69a983f3a4f93e
   languageName: node
   linkType: hard
 

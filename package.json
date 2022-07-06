@@ -1,15 +1,21 @@
 {
   "name": "@davidzemon/passport-okta-oauth",
-  "version": "0.0.4-2",
+  "version": "0.0.4-9",
   "description": "Passport strategy for authenticating with Okta using OAuth 2.0.",
   "main": "lib/passport-okta-oauth/index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "tsc": "tsc"
+  },
   "dependencies": {
-    "passport-oauth": "^1.0.0",
+    "@types/passport-oauth2": "^1.4.11",
+    "passport-oauth2": "^1.6.1",
     "pkginfo": "^0.4.1",
     "uid2": "^1.0.0"
   },
   "devDependencies": {
-    "prettier": "^2.7.1"
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
