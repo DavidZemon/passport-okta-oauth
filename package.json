@@ -1,6 +1,6 @@
 {
   "name": "@davidzemon/passport-okta-oauth",
-  "version": "0.0.4-9",
+  "version": "0.0.4",
   "description": "Passport strategy for authenticating with Okta using OAuth 2.0.",
   "main": "lib/passport-okta-oauth/index.js",
   "types": "types/index.d.ts",
